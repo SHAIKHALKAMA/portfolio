@@ -32,7 +32,7 @@ class EduDesk extends StatelessWidget {
                     shape: BoxShape.circle,
                     image: DecorationImage(
                       fit: BoxFit.fill,
-                      image: AssetImage('assets/images/gitam.png'),
+                      image: AssetImage('assets/images/ycmou.png'),
                     ),
                   ),
                   //child: Image.asset('assets/images/gitam.png'),
@@ -47,7 +47,7 @@ class EduDesk extends StatelessWidget {
                  Text("Bachelor's in Computer Applications", 
                 style: TextStyle(fontSize: 26,fontWeight: FontWeight.w600),
                 ),
-                 Text("2021 - 2024", 
+                 Text("2020 - 2024", 
                 style: TextStyle(fontSize: 22,),
                 ),
                 Text("•  Participated in Rural Development and Social Events as Student Volunteer in NSS for 2 years", 
@@ -79,7 +79,7 @@ class EduDesk extends StatelessWidget {
                     shape: BoxShape.circle,
                     image: DecorationImage(
                       fit: BoxFit.fill,
-                      image: AssetImage('assets/images/narayana.png'),
+                      image: AssetImage('assets/images/scholars.png'),
                     ),
                   ),
                   //child: Image.asset('assets/images/gitam.png'),
@@ -88,13 +88,13 @@ class EduDesk extends StatelessWidget {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text("Narayana Junior College, Hyderabad", 
+                    Text("The Scholars English High School And Jr College", 
                 style: TextStyle(fontSize: 28,fontWeight: FontWeight.bold),
                 ),
-                 Text("Board of Intermediate Education Telangana", 
+                 Text("Maharashtra State Board of Secondary & Higher Secondary Education, Pune", 
                 style: TextStyle(fontSize: 26,fontWeight: FontWeight.w600),
                 ),
-                 Text("2015 - 2017", 
+                 Text("2017 - 2019",
                 style: TextStyle(fontSize: 22,),
                 ),
                
@@ -116,15 +116,15 @@ class EduDesk extends StatelessWidget {
                         blurRadius: 15.0,
                         spreadRadius: 5.0,
                         offset: Offset(
-                          0.0, // Move to right 10  horizontally
-                          10.0, // Move to bottom 10 Vertically
+                          0.0, 
+                          10.0, 
               ),
  
                     ),],
                     shape: BoxShape.circle,
                     image: DecorationImage(
                       fit: BoxFit.fill,
-                      image: AssetImage('assets/images/school.png'),
+                      image: AssetImage('assets/images/new era.png'),
                     ),
                   ),
                   //child: Image.asset('assets/images/gitam.png'),
@@ -133,13 +133,13 @@ class EduDesk extends StatelessWidget {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text("St. John's High School, Karimnagar", 
+                    Text("New Era Eng. High School, Bhiwandi", 
                 style: TextStyle(fontSize: 28,fontWeight: FontWeight.bold),
                 ),
-                 Text("Board of Secondary Education Telangana", 
+                 Text("Maharashtra State Board (msbshse), Pune", 
                 style: TextStyle(fontSize: 26,fontWeight: FontWeight.w600),
                 ),
-                 Text("2015", 
+                 Text("2017",
                 style: TextStyle(fontSize: 22,),
                 ),
                
@@ -193,7 +193,7 @@ class EduTab extends StatelessWidget {
             shape: BoxShape.circle,
             image: DecorationImage(
               fit: BoxFit.fill,
-              image: AssetImage('assets/images/gitam.png'),
+              image: AssetImage('assets/images/ycmou.png'),
             ),
                           ),
                           //child: Image.asset('assets/images/gitam.png'),
@@ -211,10 +211,10 @@ class EduTab extends StatelessWidget {
              Text("Yashwanthrao Chavan Maharashtra Open University, Nashik", 
                     style: TextStyle(fontSize: 26,fontWeight: FontWeight.bold),
                     ),
-                     Text("Bachelor's in Computer Science Engineering", 
+                     Text("Bachelor's in Computer Applications", 
                     style: TextStyle(fontSize: 20,fontWeight: FontWeight.w600),
                     ),
-                     Text("2017 - 2021", 
+                     Text("2020 - 2024", 
                     style: TextStyle(fontSize: 22,),
                     ),
                     Text("•  Participated in Rural Development and Social Events as Student Volunteer in NSS for 2 years", 
@@ -252,7 +252,7 @@ class EduTab extends StatelessWidget {
             shape: BoxShape.circle,
             image: DecorationImage(
               fit: BoxFit.fill,
-              image: AssetImage('assets/images/narayana.png'),
+              image: AssetImage('assets/images/scholars.png'),
             ),
                           ),
                           //child: Image.asset('assets/images/gitam.png'),
@@ -267,13 +267,13 @@ class EduTab extends StatelessWidget {
                                 child: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
-            Text("Narayana Junior College, Hyderabad", 
+            Text("The Scholars English High School And Jr College", 
                     style: TextStyle(fontSize: 26,fontWeight: FontWeight.bold),
                     ),
-                     Text("Intermediate in MPC stream", 
+                     Text("Maharashtra State Board (msbshse) Pune", 
                     style: TextStyle(fontSize: 20,fontWeight: FontWeight.w600),
                     ),
-                     Text("2015 - 2017", 
+                     Text("2017 - 2019", 
                     style: TextStyle(fontSize: 22,),
                     ),
                     
@@ -309,7 +309,7 @@ class EduTab extends StatelessWidget {
             shape: BoxShape.circle,
             image: DecorationImage(
               fit: BoxFit.fill,
-              image: AssetImage('assets/images/school.png'),
+              image: AssetImage('assets/images/new era.png'),
             ),
                           ),
                           //child: Image.asset('assets/images/gitam.png'),
@@ -324,13 +324,13 @@ class EduTab extends StatelessWidget {
                                 child: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
-            Text("St. John's High School, Karimnagar", 
+            Text("New Era Eng. High School, Bhiwandi", 
                     style: TextStyle(fontSize: 26,fontWeight: FontWeight.bold),
                     ),
-                     Text("Board of Secondary Education Telangana", 
+                     Text("Maharashtra State Board (msbshse), Pune", 
                     style: TextStyle(fontSize: 20,fontWeight: FontWeight.w600),
                     ),
-                     Text("2015", 
+                     Text("2017", 
                     style: TextStyle(fontSize: 22,),
                     ),
                     
@@ -382,7 +382,7 @@ class EduMob extends StatelessWidget {
             shape: BoxShape.circle,
             image: DecorationImage(
               fit: BoxFit.fill,
-              image: AssetImage('assets/images/gitam.png'),
+              image: AssetImage('assets/images/ycmou.png'),
             ),
                             ),
                             //child: Image.asset('assets/images/gitam.png'),
@@ -402,10 +402,10 @@ class EduMob extends StatelessWidget {
               Text("Yashwanthrao Chavan Maharashtra Open University, Nashik", 
                       style: TextStyle(fontSize: 22,fontWeight: FontWeight.bold),
                       ),
-                       Text("Bachelor's in Computer Science Engineering", 
+                       Text("Bachelor's in Computer Applications", 
                       style: TextStyle(fontSize: 18,fontWeight: FontWeight.w600),
                       ),
-                       Text("2017 - 2021", 
+                       Text("2020 - 2024", 
                       style: TextStyle(fontSize: 17,),
                       ),
                       Text("•  Participated in Rural Development and Social Events as Student Volunteer in NSS for 2 years", 
@@ -441,7 +441,7 @@ class EduMob extends StatelessWidget {
             shape: BoxShape.circle,
             image: DecorationImage(
               fit: BoxFit.fill,
-              image: AssetImage('assets/images/narayana.png'),
+              image: AssetImage('assets/images/scholars.png'),
             ),
                             ),
                             //child: Image.asset('assets/images/gitam.png'),
@@ -458,13 +458,13 @@ class EduMob extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.center,
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-              Text("Narayana Junior College, Hyderabad", 
+              Text("The Scholars  Jr College", 
                       style: TextStyle(fontSize: 22,fontWeight: FontWeight.bold),
                       ),
-                       Text("Board of Intermediate Education Telangana", 
+                       Text("Maharashtra State Board (msbshse), Pune", 
                       style: TextStyle(fontSize: 18,fontWeight: FontWeight.w600),
                       ),
-                       Text("2015 - 2017", 
+                       Text("2017 - 2019", 
                       style: TextStyle(fontSize: 17,),
                       ),
                      
@@ -498,7 +498,7 @@ class EduMob extends StatelessWidget {
             shape: BoxShape.circle,
             image: DecorationImage(
               fit: BoxFit.fill,
-              image: AssetImage('assets/images/school.png'),
+              image: AssetImage('assets/images/new era.png'),
             ),
                             ),
                             //child: Image.asset('assets/images/gitam.png'),
@@ -515,13 +515,13 @@ class EduMob extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.center,
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-              Text("St. John's High School, Karimnagar", 
+              Text("New Era Eng. High School, Bhiwandi", 
                       style: TextStyle(fontSize: 22,fontWeight: FontWeight.bold),
                       ),
-                       Text("Board of Secondary Education Telangana", 
+                       Text("Maharashtra State Board (msbshse), Pune", 
                       style: TextStyle(fontSize: 18,fontWeight: FontWeight.w600),
                       ),
-                       Text("2015", 
+                       Text("2017", 
                       style: TextStyle(fontSize: 17,),
                       ),
                      

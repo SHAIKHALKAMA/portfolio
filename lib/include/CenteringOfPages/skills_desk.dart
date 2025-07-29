@@ -37,6 +37,7 @@ class SkillsMob extends StatelessWidget {
 class SkillsTab extends StatelessWidget {
   const SkillsTab({Key? key}) : super(key: key);
   @override
+
   Widget build(BuildContext context) {
    return SingleChildScrollView(
           child: Column(

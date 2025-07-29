@@ -29,7 +29,7 @@ dark: ThemeData(
     brightness: Brightness.dark,
   ).copyWith(
     secondary: Colors.amber,
-    background: Colors.black,
+    surface: Colors.black,
   ),
 ),
       initial: savedThemeMode ?? AdaptiveThemeMode.light,
