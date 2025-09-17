@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return AdaptiveTheme(
      light: ThemeData(
+       scaffoldBackgroundColor: Colors.black,
   colorScheme: ColorScheme.fromSwatch(
     primarySwatch: Colors.grey,
     brightness: Brightness.light,
@@ -24,6 +25,7 @@ class MyApp extends StatelessWidget {
 ),
 
 dark: ThemeData(
+   scaffoldBackgroundColor: Colors.black,
   colorScheme: ColorScheme.fromSwatch(
     primarySwatch: Colors.grey,
     brightness: Brightness.dark,
@@ -35,7 +37,7 @@ dark: ThemeData(
       initial: savedThemeMode ?? AdaptiveThemeMode.light,
       builder: (theme, darkTheme) => MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'DeveloperFolio',
+        title: 'shaikhalkamaPortfolio',
         theme: theme,
         darkTheme: darkTheme,
         home: LayoutTemplate(),
